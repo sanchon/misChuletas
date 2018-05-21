@@ -49,5 +49,6 @@ CONTENIDOS
 
 Para modificar este fichero de chuletas:
     - modificar el fichero bundle/misChuletas/doc/misChuletas.txt
+    - ejecutar helpt en la carpeta doc
     - commit y push
     - PluginUpdate
