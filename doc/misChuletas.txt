@@ -47,3 +47,7 @@ CONTENIDOS
 ==============================================================================
 5. MisChuletas                                       *misChuletas-misChuletas* 
 
+Para modificar este fichero de chuletas:
+    - modificar el fichero bundle/misChuletas/doc/misChuletas.txt
+    - commit y push
+    - PluginUpdate
