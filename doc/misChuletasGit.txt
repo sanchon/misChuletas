@@ -1,0 +1,17 @@
+*misChuletasGit.txt*  Lo básico de Git que suelo usar yo
+
+==================================================================================
+CONTENIDOS
+
+    1. Git...............................................|misChuletasGit-Git|
+
+
+======================================================================================================
+1. Git                                                                              *misChuletasGit-Git*
+
+ * set globally "origin" as default remote~ `$ git config --global branch.master.remote origin`
+ * sets this branch as upstream~ `           $ git branch --set-upstream`
+ * delete a submodule~ >
+       $ git submodule deinit asubmodule
+       $ git rm asubmodule
+<
