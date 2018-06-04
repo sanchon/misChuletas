@@ -1,0 +1,79 @@
+*misChuletasMarkdown.txt*  Lo básico de Markdown que suelo usar yo
+
+==================================================================================
+CONTENIDOS
+
+    1. Párrafos, listas, código..........................|misChuletasMarkdown-parrafosListasCodigo|
+    2. Enlaces, imágenes.................................|misChuletasMarkdown-enlacesImagenes|
+    3. Énfasis...........................................|misChuletasMarkdown-enfasis|
+    4. Extensiones.......................................|misChuletasMarkdown-extensiones|
+
+
+
+======================================================================================================
+1. Párrafos, listas, código                                   *misChuletasMarkdown-parrafosListasCodigo*
+
+Párrafos: >
+  ## Cabecera nivel 2
+  ### Cabecera nivel 3
+<
+
+Listas: >
+ *  Lista
+ *  Lista con un párrafo de texto
+    tiene que haber 4 espacios al inicio    
+ *  Lista con un poco de código metido dentro
+    del elemento de la lista, debe indentarse dos
+    veces, y hay que dejar un espacio:
+        
+        <notas/>
+ *  El último elemento de la lista es este
+< 
+
+Un ejemplo de código (simplemente 4 espacios): >
+    function test()
+    {
+      whatever();
+    }
+<
+y si quiero meter código en línea lo hago con acento invertido ``<notas/>``
+
+======================================================================================================
+2. Enlaces, imágenes                                               *misChuletasMarkdown-enlacesImagenes*
+
+
+Como ejemplo enlazamos [mi blog](http://sanchon.blogspot.com.es "Notas") en este párrafo. Si soy
+un poco vago, puedo escribirlo directamente así: <http://sanchon.blogspot.com.es> y punto.
+
+Podemos definir un link a [mi blog][notas] declarándolo aparte, en otro
+sitio del documento (link definitions) >
+
+  [notas]: <http://sanchon.blogspot.com.es> "Notas"
+<  
+Para meter una imagen `![Logo W3C](<http://www.w3.org/2008/site/images/logo-w3c-mobile-lg> "w3c")`
+
+También se puede hacer una definición de una imagen: ![imagen][logow3c]. >
+
+  [logow3c]:http://www.w3.org/2008/site/images/logo-w3c-mobile-lg "w3c" 
+<
+
+
+
+======================================================================================================
+3. Énfasis                                                                 *misChuletasMarkdown-enfasis*
+
+* normal: *single asterisks* _single underscores_
+* fuerte: **double asterisks** __double underscores__
+
+
+======================================================================================================
+4. Extensiones                                                         *misChuletasMarkdown-extensiones*
+
+4.1. simple_tables, table_captions~
+>
+      Right     Left     Center     Default
+    -------     ------ ----------   -------
+         12     12        12            12
+        123     123       123          123
+          1     1          1             1
+<
