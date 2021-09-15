@@ -57,3 +57,24 @@ Para modificar este fichero de chuletas:
     - ejecutar helpt en la carpeta doc
     - commit y push
     - PluginUpdate
+
+
+=================================================================================
+6. todo.txt                                             *misChuletasVim-todo.txt*
+
+    - Formato:
+        (Prioridad) [FechaCompletada] [FechaCreacion] Descripcion De La Tarea [@Contexto] [+Proyecto] [due:2021-12-31]
+    - Fechas:
+        date<tab>      : Fecha actual
+        <LocalLeader>p : Posponer fecha de vencimiento
+        <LocalLeader>P : Adelantar fecha de vencimiento
+    - Completar:
+        <LocalLeader>x : completada
+        <LocalLeader>D : archivar en done.txt
+    - Ordenar:
+        <LocalLeader>s  : prioridad
+        <LocalLeader>s+ : proyectos
+        <LocalLeader>s@ : contextos
+        <LocalLeader>sp : proyectos >> prioridad
+
+
